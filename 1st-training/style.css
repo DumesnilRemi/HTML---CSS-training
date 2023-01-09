@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Conteneur principal */
+.overlay-Mel {
+    position: relative;
+    width: 30%;
+   }
+   
+   /* Image originale */
+.overlay-Mel .img-Mel {
+    display: block;
+    width: 100%;
+    height: auto;
+   }
+   
+   /* Texte original */
+.overlay-Mel .text {
+    color: #fff;
+    font-family: fantasy;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px #000;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+   }
+
+   /********* Hover image et texte *******/
+
+/* Overlay */
+.overlay-Mel .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: blue;
+   }
+   
+   /* Apparition overlay sur passage souris */
+.overlay-Mel:hover .hover {
+    opacity: 1;
+    /* padding-left: 360px; */
+   }
+
+   /********* Hover background et texte uniquement *******/
+
+.overlay-image .normal {
+    transition: .5s ease;
+   }
+   .overlay-image:hover .normal {
+    opacity: 0;
+   }
+   .overlay-image .hover {
+    background-color: rgba(0,0,0,0.5);
+   }

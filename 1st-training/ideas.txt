@@ -1,0 +1,5 @@
+Lister les les persos de 7ds et faire un lien de leurs image vers un wiki
+background image (peu importe) avec moins d'opacité
+lister leurs trésors sacrés (en dessous ou sur le coté de leurs image)
+lister leurs logo (péchés capitaux)
+faire un overlay pour les différents catégorie (armes, signification logo, etc)
